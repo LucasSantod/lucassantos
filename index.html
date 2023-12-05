@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <!-- CDN da última versão compilada do Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CDN da última versão compilada do JavaScript CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link para Fonte utilizada no Cabeçalho (Google Fonts) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Borel&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap');
+    </style>
+
+    <!-- CDN da últilma versão do Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    
+    <!-- Cabeçalho da Página -->
+    <div class="container text-center">
+        <img src="img/logomaker.png" style="width:200px;" title="SantosSoccer">
+        <h1 style="font-family: Black And rgb(254, 0, 0) Picture; font-size: 36pt;">SantosSoccer</h1>
+    </div>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" title="Ir para a Página Inicial">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Link Inativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formLogin.html" title="Acessar o Sistema">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container que abrigará o conteúdo da página -->
+    <div class="container text-center" style="margin-top:30px; margin-bottom:100px;">
+
+        <div class="alert alert-info text-center" style="width:50%; margin:auto;">
+            Há <strong>50</strong> pares de cada modelo dísponivel! &nbsp<i class="bi bi-emoji-smile"></i>
+        </div>
+
+        <!-- Início da primeira linha da GRID -->
+        <div class="row" style="margin-top:30px;">
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/chuteira.jpg" title='chuteira CR7' alt="chuteira CR7">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>chuteira CR7</b></h4>
+                        <p class="card-text"><b>R$ 198,00</b></p>
+                        <a href="vizualizarProdutocr7.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 100%; height:100%;">
+                    <img class="card-img-top" src="img/rwesfgwsefesw_640x640+fill_ffffff.png" title='Joaninha Amarela' alt="Joaninha Amarela">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Umbro magma</b></h4>
+                        <p class="card-text"><b>R$ 299,99</b></p>
+                        <a href="vizualizarProduto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/chuteiranike.jpg" title='Chuteira Nike Mercurial Superfly 8' alt="Chuteira Nike Mercurial Superfly 8 ">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Chuteira Nike Mercurial Superfly 8 </b></h4>
+                        <p class="card-text"><b>R$ 200,00</b></p>
+                        <a href="vizualizarProdutoNike.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/nikeazul.jpg" title='Chuteira Mercurial superfly 9 club' alt="Chuteira Mercurial superfly 9 club">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Chuteira Mercurial superfly 9 club</b></h4>
+                        <p class="card-text"><b>R$ 299,99</b></p>
+                        <a href="vizualizarPrdofutonikeazul.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim da primeira linha da GRID -->
+
+        <!-- Início da segunda linha da GRID-->
+        <div class="row" style="margin-top:30px;">
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/preta.jpg" title='tiempo legend R10' alt="tiempo legend R10">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>tiempo legend R10</b></h4>
+                        <p class="card-text"><b>R$ 399,99</b></p>
+                        <a href="vizualizarProdutopreta.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 100%; height:100%;">
+                    <img class="card-img-top" src="img/chuteiralaranja.png" title='Chuteira Nike Air Zoom Mercurial' alt="Chuteira Nike Air Zoom Mercurial">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Chuteira Nike Air Zoom Mercurial</b></h4>
+                        <p class="card-text"><b>R$ 299,99</b></p>
+                        <a href="vizualizarProdutochuteiral.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/chuteira dourada.jpg" title='phantom gt2' alt="phantom gt2">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>phantom gt2</b></h4>
+                        <p class="card-text"><b>R$ 252,99</b></p>
+                        <a href="vizualizarProdutodourado.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/preta total.jpg" title='Mercurial 9' alt="Mercurial 9">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Mercurial 9</b></h4>
+                        <p class="card-text"><b>R$ 499,99</b></p>
+                        <a href="vizualizarPrdofutopreto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim da segunda linha da GRID -->
+
+    </div>
+
+    <!-- Div do Rodapé (Fixa na base) -->
+    <div class="mt-5 bg-dark text-white text-center fixed-bottom">
+        <p>
+            Interfaces para um sistema de vendas de chuteiras<br>
+            Desenvolvido por
+            <b><a href="mailto:lsalmeida.5000@gmail.com?subject=Uma melhor experiencia no seu futebol/futsal">lsalmeida.5000@gmail.com</a></b> para uma melhor experiencia no seu futebol/futsal
+        </p>
+    </div>
+
+</body>
+</html>
